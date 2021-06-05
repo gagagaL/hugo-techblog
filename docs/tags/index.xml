@@ -5,6 +5,79 @@
     <link>https://gagagal.github.io/hugo-techblog/tags/</link>
     <description>Recent content in Tags on ヨット逆走テック</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://gagagal.github.io/hugo-techblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 17 May 2021 22:12:03 +0000</lastBuildDate><atom:link href="https://gagagal.github.io/hugo-techblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ドメイン駆動開発</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Mon, 17 May 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>本</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E6%9C%AC/</link>
+      <pubDate>Mon, 17 May 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E6%9C%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>テスト駆動開発</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Thu, 13 May 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/python/</link>
+      <pubDate>Wed, 05 May 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>プロジェクト管理</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Tue, 04 May 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>リファクタリング</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Mon, 01 Mar 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>タスク</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%82%BF%E3%82%B9%E3%82%AF/</link>
+      <pubDate>Tue, 23 Feb 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%82%BF%E3%82%B9%E3%82%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ブログ</title>
+      <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Tue, 23 Feb 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ブログ on ヨット逆走テック</title>
+    <link>https://gagagal.github.io/hugo-techblog/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in ブログ on ヨット逆走テック</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 23 Feb 2021 22:12:03 +0000</lastBuildDate><atom:link href="https://gagagal.github.io/hugo-techblog/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>初めに</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/intro/</link>
+      <pubDate>Tue, 23 Feb 2021 22:12:03 +0000</pubDate>
+      
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/intro/</guid>
+      <description>自己紹介 名前：gagagaL
+生まれ:1989年10月
+SEになって2021年で5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめてい きます。
+Qiita ともたまに連携させていく予定。
+ちなみに、ブログのタイトルは、前のブログが偉大なるGatsbyで動いていたことに由来します。元ネタがわかった方は友達になりましょう。
+2021年にやりたいこと・勉強したいもの・読む本 (随時追加)  このブログの整形、デザインの調整 Django + DeepLearningでアプリ作成 OSS参戦 CUIアプリ自作 GoogleChrome拡張作成 バグバウンティ周り勉強(C、C#、Linux、など) 統計学勉強、統計検定一級に挑戦 1シーズンに1つは重ための記事を書く AWS検定 IntelliJ周辺まとめ vim周辺まとめ Docker、Kubernetes周辺まとめ Python Typescript Rust Go GraphQL WebAssembly PWA React Nuxt.js(Vue.js) Laravel React Native Flutter Swift Kotlin 『リファクタリング』 『レガシーコード改善ガイド』 『エリック・エヴァンスのドメイン駆動設計』 『テスト駆動開発』 『美しき策謀』 『ハッキング・ラボ』 『Linuxプログラミングインタフェース』 『暗号技術の全て』 『パターン認識と機械学習』 『統計的学習の基礎(原文)』 『ハイパフォーマンスPython』 『Fluent Python』 『マスタリングTCP/IP』 『入門Vue.js』 『問題解決のPythonプログラミング』 『実践Metasploit』 『熊とワルツを』 『プレファクタリング』 Ben Awadで勉強 Adrian Twarogで勉強 Tim Ruscicaで勉強 Caleb Curryで勉強 Clement Mihailescuで勉強 Catalin Pitで勉強 Clement Mihailescuで勉強  </description>
+    </item>
+    
+  </channel>
+</rss>

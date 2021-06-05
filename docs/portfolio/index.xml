@@ -6,104 +6,127 @@
     <description>Recent content in Portfolios on ヨット逆走テック</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Nov 2016 20:23:59 +0530</lastBuildDate><atom:link href="https://gagagal.github.io/hugo-techblog/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 May 2021 22:12:03 +0000</lastBuildDate><atom:link href="https://gagagal.github.io/hugo-techblog/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Name of the work 2</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work2/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <title>『エリック・エヴァンスのドメイン駆動設計』まとめ</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/post5/</link>
+      <pubDate>Mon, 17 May 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work2/</guid>
-      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/post5/</guid>
+      <description>序文 DDDの原則
+ コアドメインに集中すること ドメインの実践者とソフトウェアの実践者による創造的な共同作業を通じてモデルを探求すること 明示的な境界づけられたコンテキストの内部でユビキタス言語を語ること  前提
+ 開発がイテレーティブ(反復的)であること 開発者とドメインエキスパートが密接に関わっている   第0章 モデル モデルとは簡素化であり、問題を解決する上で関連する側面を抽象化し、それ以外の詳細を無視することによって行われた現実に対する一つの解釈 図を用いて表現する
+ドメイン ソフトウェアプログラムはそれを使用するユーザーの何らかの活動や関心と関係があり、ユーザーがプログラムを適用する対象領域がソフトウェアのドメインである ドメインは具象も抽象(システムなど)もあり得る
+ドメインモデルとは特定の図ではなく、図が伝えようとしている考え方である
+ドメイン駆動設計におけるモデルの有用性  モデルと設計の確信が相互に形成し合う モデルはチームメンバー全員が使用する言語の基盤である モデルとは蒸留された知識である…モデルは、ドメインの知識を構成して最も関心のある要素を区別するための、チーム内で取り決めた方法である  ソフトウェアの核心はドメインに関係した問題をユーザーの為に解決する能力である モンティ・パイソンの例
+第1章 知識を噛み砕く
+効果的なモデリングの要素  モデルと実装を結びつける モデルに基づいて言語を洗練させる 知識豊富なモデルを開発する モデルを蒸留する ブレインストーミングと実験を行う  知識の噛み砕き
+継続的学習 →ソフトウェアを書き始める時、我々は対象を十分に理解しているわけではない
+ポリシーも考える必要がある
+知識を噛み砕くことによって初めて、ルールが明確となり、具体化され、折り合いがつけられるか、あるいはスコープの対象外とされるのである
+第2章(コミュニケーションと言語の使い方) ドメインモデルは、ソフトウェアプロジェクトにおける共通言語のコアとなることができる
+モデルとは、プロジェクトに関わる人々の頭の中で構築された概念の塊であり、ドメインについての洞察を反映した用語と概念間の関係性からできている
+ドメインエキスパートと開発者での言語の亀裂が問題である
+共通言語（ユビキタス言語）を図やドキュメント、会話の中で用いることユビキタス言語の変更はモデルに対する変更だと思っていること
+ユビキタス言語の語彙には、クラスや主要な操作の名前が含まれていて、また、モデルの中で明示されたルールについて議論するための用語も含まれている
+ユビキタス言語は開発者同士、開発者とドメインエキスパート同士で当然の如く用いられてなければならない
+ユビキタス言語を用いる上での不便さこそが設計の不備を教えてくれる
+ユビキタス言語における変更は、モデルに対する変更である
+ユビキタス言語は、設計にあってコードに現れない側面を伝達するための主要な手段である
+モデルを改良する最適な方法の一つは話すことである
+ドメインエキスパートがモデルを理解できないのなら、モデルに問題がある
+モデルは図ではない
+ドキュメントが守るべき指針
+ すでにコードがうまくやっていることを、ドキュメントでもやろうとするべきでは無い ドキュメントは活動の役に立たなければならず、最新の状態に保たなければならない  第3章(モデルと実装を結びつける) モデルを作るもののコーディングとは結びつかない(あるいは意図的に断絶される)ものが多い
+設計、あるいは設計の中心となる部分がドメインモデルに紐づいていないならばそのモデルにほとんど価値はなく、そのソフトウェアが正確かどうかも疑わしい。分析と設計の間に致命的な亀裂が生じていると、それらの作業で得られる洞察は互いに生かされない
+モデル駆動設計は分析モデルと設計という二分法を捨て去り、両方の目的に使える単一のモデルを探し出す。 そのモデルは全く別々の二つの目標を満たす必要があるため、我々はモデルに対する要求をもっと厳しくしなければならない
+ソフトウェアシステムの一部を設計する際には、紐づけが明らかになるように ドメインモデルを文字通りの意味で忠実に反映させる必要がある。モデルについて再検討し、より自然にソフトウェアに実装されるように修正する。逆にドメインに対する深い洞察を反映させようとするときにも言える。
+モデルは全員の共通認識にしなければならない</description>
     </item>
     
     <item>
-      <title>Name of the work 3</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work3/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      <title>『テスト駆動開発』のエッセンシャル</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/post4/</link>
+      <pubDate>Thu, 13 May 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work3/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/post4/</guid>
+      <description>テスト駆動開発の手法  やることをTODOリストに書き出す(これは随時思いつき次第追加していく) 小さいテストを一つ書く 全てのテストを実行し、先程の一つだけが失敗することを確認する コンパイルエラーを通す テストを通すための最小限の変更を行い、全てのテストが成功することを確認する リファクタリングを行い重複を除去する  テスト駆動開発の心得  細かいステップを踏み続けられるようにする TDDの三つの戦略  仮実装 &amp;hellip; コードでまずベタ書きの値をつかい、実装を進めるに従って徐々に変数に置き換えていく 明白な実装 &amp;hellip; すぐに頭の中の実装をコードに落とす 三角測量 &amp;hellip; 既存のコードに二つ目の実例を追加する(trueを確かめるものがあればfalseを吐き出すもの、など)    </description>
     </item>
     
     <item>
-      <title>Item without image</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work4/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      <title>『ハイパフォーマンスPython』まとめ</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/post3/</link>
+      <pubDate>Wed, 05 May 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work4/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/post3/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Name of the work 5</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work5/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <title>『熊とワルツを』まとめ</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/post2/</link>
+      <pubDate>Tue, 04 May 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work5/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/post2/</guid>
+      <description>序章 </description>
     </item>
     
     <item>
-      <title>Name of the work 6</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      <title>『リファクタリング』まとめ Part1</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/post1/</link>
+      <pubDate>Mon, 01 Mar 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work6/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/post1/</guid>
+      <description>マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。
+気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。
+第1章 リファクタリング-最初の例 実例を交えながらリファクタリングがどういうものか説明している。 全体を読んだ後に読んだ方が良さそうなので後回し。
+第2章 リファクタリングの原則 リファクタリングの定義 リファクタリング(名詞)…外部から見た時の振る舞いを保ちつつ、理解や修正が簡単になるように、ソフトウェアの内部構造を変換させること。
+リファクタリングする(動詞)…一連のリファクタリングを行って、外部から見た振る舞いの変更なしに、ソフトウェアを再構築すること。
+リファクタリングを行う理由 ・リファクタリングはソフトウェア設計を向上させる
+・リファクタリングはソフトウェアを理解しやすくする
+・リファクタリングはバグを見つけ出す
+・リファクタリングでより早くプログラミングできる
+いつリファクタリングするべきか ・&amp;ldquo;三度目の法則&amp;rdquo;
+重複や無駄を意識しつつも二度目までならとにかく作業を続けても構わず、三度目に同じようなことをしていると気づいたならばそこでリファクタリングする。
+・機能追加時にリファクタリングを行う
+これから修正しようとしているコードを理解する為、容易に機能追加ができない設計が存在する為
+・バグフィックス時にリファクタリングを行う
+・コードレビューの時にリファクタリングを行う
+第3章 コードの不吉な匂い リファクタリングの必要を示す不吉な兆候 特に重要な章
+重複したコード 同じようなコードが二箇所以上で見られたら、一箇所にまとめることを考える
+同一クラス内の複数メソッドに同じ式がある→メソッドの抽出
+重複したコードが兄弟クラス間に見られる→メソッドの抽出、メソッドの引き上げ
+全く関係のない二つのクラス間で重複したコードが見られる→クラスの抽出
+長すぎるメソッド 間接層を持たせるべき。
+メソッドを短くしたい→メソッドの抽出
+引数や一時変数が多すぎるメソッド→問い合わせによる一時変数の置き換え
+長い引数リスト→引数オブジェクトの導入、オブジェクトそのものの受け渡し
+それでも一時変数や引数が残る→メソッドオブジェクトによるメソッドの置き換え
+条件分岐やループ→条件記述の分解
+巨大なクラス 一つのクラスがあまりに多くの仕事をしている時、たいていインスタンス変数を持ちすぎている。よって重複コードが現れやすい。
+いくつかの変数をまとめる→クラスの抽出
+新しいコンポーネントがサブクラスになりそう→サブクラスの抽出
+クラスがインスタンス変数を全て使っていない→クラスの抽出、サブクラスの抽出
+インタフェースの抽出
+巨大なクラスがGUI部分である→観察されるデータの複製
+多すぎる引数 既知のオブジェクトに問い合わせてそのデータを一つの引数にしてうけとることが可能→メソッドによる引数の置き換え
+オブジェクトそのものの受け渡し、引数オブジェクトの導入
+変更の発散 一つのクラスが互いに独立した理由で同じように変更され、その手順も異なる状態 (例)データベースが新しくなるたびに3つのメソッドを変更しなければならない
+変更理由ごとにクラスをまとめていく→クラスの抽出</description>
     </item>
     
     <item>
-      <title>Name of the work 7</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work7/</link>
-      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      <title>初めに</title>
+      <link>https://gagagal.github.io/hugo-techblog/portfolio/intro/</link>
+      <pubDate>Tue, 23 Feb 2021 22:12:03 +0000</pubDate>
       
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work7/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 8</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work8/</link>
-      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
-      
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work8/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work9/</link>
-      <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
-      
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work9/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work10/</link>
-      <pubDate>Sat, 05 Nov 2016 20:22:08 +0530</pubDate>
-      
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work10/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Item with image</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work11/</link>
-      <pubDate>Sat, 05 Nov 2016 20:23:59 +0530</pubDate>
-      
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work11/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 1</title>
-      <link>https://gagagal.github.io/hugo-techblog/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://gagagal.github.io/hugo-techblog/portfolio/work1/</guid>
-      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;</description>
+      <guid>https://gagagal.github.io/hugo-techblog/portfolio/intro/</guid>
+      <description>自己紹介 名前：gagagaL
+生まれ:1989年10月
+SEになって2021年で5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめてい きます。
+Qiita ともたまに連携させていく予定。
+ちなみに、ブログのタイトルは、前のブログが偉大なるGatsbyで動いていたことに由来します。元ネタがわかった方は友達になりましょう。
+2021年にやりたいこと・勉強したいもの・読む本 (随時追加)  このブログの整形、デザインの調整 Django + DeepLearningでアプリ作成 OSS参戦 CUIアプリ自作 GoogleChrome拡張作成 バグバウンティ周り勉強(C、C#、Linux、など) 統計学勉強、統計検定一級に挑戦 1シーズンに1つは重ための記事を書く AWS検定 IntelliJ周辺まとめ vim周辺まとめ Docker、Kubernetes周辺まとめ Python Typescript Rust Go GraphQL WebAssembly PWA React Nuxt.js(Vue.js) Laravel React Native Flutter Swift Kotlin 『リファクタリング』 『レガシーコード改善ガイド』 『エリック・エヴァンスのドメイン駆動設計』 『テスト駆動開発』 『美しき策謀』 『ハッキング・ラボ』 『Linuxプログラミングインタフェース』 『暗号技術の全て』 『パターン認識と機械学習』 『統計的学習の基礎(原文)』 『ハイパフォーマンスPython』 『Fluent Python』 『マスタリングTCP/IP』 『入門Vue.js』 『問題解決のPythonプログラミング』 『実践Metasploit』 『熊とワルツを』 『プレファクタリング』 Ben Awadで勉強 Adrian Twarogで勉強 Tim Ruscicaで勉強 Caleb Curryで勉強 Clement Mihailescuで勉強 Catalin Pitで勉強 Clement Mihailescuで勉強  </description>
     </item>
     
   </channel>

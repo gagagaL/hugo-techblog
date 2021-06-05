@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ヨット逆走テック</title>
+<meta name="description" content="Describe your website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://gagagal.github.io/hugo-techblog/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://gagagal.github.io/hugo-techblog/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://gagagal.github.io/hugo-techblog/css/owl.carousel.css">
+<link rel="stylesheet" href="https://gagagal.github.io/hugo-techblog/css/owl.theme.css">
+
+
+  <link href="https://gagagal.github.io/hugo-techblog/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://gagagal.github.io/hugo-techblog/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://gagagal.github.io/hugo-techblog/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://gagagal.github.io/hugo-techblog/">ヨット逆走テック</a></h1>
+    
+      <p class="sidebar-p">I am a creative illustrator and graphic designer with more than 10 years of experience.</p>
+    
+      <p class="sidebar-p">Originally from Toronto, currently based in London.</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://gagagal.github.io/hugo-techblog/portfolio/">Home</a></li>
+      
+        <li><a href="https://gagagal.github.io/hugo-techblog/about/">About</a></li>
+      
+        <li><a href="https://gagagal.github.io/hugo-techblog/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="full%20page%20or%20profile%20url%20in%20facebook" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20googleplus" data-animate-hover="pulse" class="external gplus">
+    <i class="fa fa-google-plus"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20twitter" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20instagram" title="" class="external instagram">
+    <i class="fa fa-instagram"></i>
+  </a>
+  
+  
+  <a href="mailto:email@example.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20linkedin" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20stackoverflow" data-animate-hover="pulse" class="external">
+    <i class="fa fa-stack-overflow"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20github" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20gitlab" data-animate-hover="pulse" class="external">
+    <i class="fa fa-gitlab"></i>
+  </a>
+  
+  
+  <a href="full%20profile%20url%20in%20youtube" data-animate-hover="pulse" class="external">
+    <i class="fa fa-youtube"></i>
+  </a>
+  
+  
+  <a href="wa.me%20service%20link" data-animate-hover="pulse" class="external">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2016 Your name or company |
+        
+        Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://gagagal.github.io/hugo-techblog/">ヨット逆走テック</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>『リファクタリング』まとめ Part1</h1>
+         <p>マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。<br>
+気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。</p>
+<h1 id="第1章--リファクタリング-最初の例">第1章  リファクタリング-最初の例</h1>
+<p>実例を交えながらリファクタリングがどういうものか説明している。
+<strong>全体を読んだ後に読んだ方が良さそうなので後回し。</strong></p>
+<h1 id="第2章-リファクタリングの原則">第2章 リファクタリングの原則</h1>
+<h2 id="リファクタリングの定義">リファクタリングの定義</h2>
+<p><strong>リファクタリング(名詞)</strong>…外部から見た時の振る舞いを保ちつつ、理解や修正が簡単になるように、ソフトウェアの内部構造を変換させること。</p>
+<p><strong>リファクタリングする(動詞)</strong>…一連のリファクタリングを行って、外部から見た振る舞いの変更なしに、ソフトウェアを再構築すること。</p>
+<h2 id="リファクタリングを行う理由">リファクタリングを行う理由</h2>
+<p><strong>・リファクタリングはソフトウェア設計を向上させる</strong></p>
+<p><strong>・リファクタリングはソフトウェアを理解しやすくする</strong></p>
+<p><strong>・リファクタリングはバグを見つけ出す</strong></p>
+<p><strong>・リファクタリングでより早くプログラミングできる</strong></p>
+<h2 id="いつリファクタリングするべきか">いつリファクタリングするべきか</h2>
+<p><strong>・&ldquo;三度目の法則&rdquo;</strong></p>
+<p>重複や無駄を意識しつつも二度目までならとにかく作業を続けても構わず、三度目に同じようなことをしていると気づいたならばそこでリファクタリングする。</p>
+<p><strong>・機能追加時にリファクタリングを行う</strong></p>
+<p>これから修正しようとしているコードを理解する為、容易に機能追加ができない設計が存在する為</p>
+<p><strong>・バグフィックス時にリファクタリングを行う</strong></p>
+<p><strong>・コードレビューの時にリファクタリングを行う</strong></p>
+<h1 id="第3章-コードの不吉な匂い">第3章 コードの不吉な匂い</h1>
+<p>リファクタリングの必要を示す不吉な兆候
+<strong>特に重要な章</strong></p>
+<h2 id="重複したコード">重複したコード</h2>
+<p>同じようなコードが二箇所以上で見られたら、一箇所にまとめることを考える</p>
+<p>同一クラス内の複数メソッドに同じ式がある→<strong>メソッドの抽出</strong></p>
+<p>重複したコードが兄弟クラス間に見られる→<strong>メソッドの抽出</strong>、<strong>メソッドの引き上げ</strong></p>
+<p>全く関係のない二つのクラス間で重複したコードが見られる→<strong>クラスの抽出</strong></p>
+<h2 id="長すぎるメソッド">長すぎるメソッド</h2>
+<p>間接層を持たせるべき。</p>
+<p>メソッドを短くしたい→<strong>メソッドの抽出</strong></p>
+<p>引数や一時変数が多すぎるメソッド→<strong>問い合わせによる一時変数の置き換え</strong></p>
+<p>長い引数リスト→<strong>引数オブジェクトの導入</strong>、<strong>オブジェクトそのものの受け渡し</strong></p>
+<p>それでも一時変数や引数が残る→<strong>メソッドオブジェクトによるメソッドの置き換え</strong></p>
+<p>条件分岐やループ→<strong>条件記述の分解</strong></p>
+<h2 id="巨大なクラス">巨大なクラス</h2>
+<p>一つのクラスがあまりに多くの仕事をしている時、たいていインスタンス変数を持ちすぎている。よって重複コードが現れやすい。</p>
+<p>いくつかの変数をまとめる→<strong>クラスの抽出</strong></p>
+<p>新しいコンポーネントがサブクラスになりそう→<strong>サブクラスの抽出</strong></p>
+<p>クラスがインスタンス変数を全て使っていない→<strong>クラスの抽出</strong>、<strong>サブクラスの抽出</strong></p>
+<p><strong>インタフェースの抽出</strong></p>
+<p>巨大なクラスがGUI部分である→<strong>観察されるデータの複製</strong></p>
+<h2 id="多すぎる引数">多すぎる引数</h2>
+<p>既知のオブジェクトに問い合わせてそのデータを一つの引数にしてうけとることが可能→<strong>メソッドによる引数の置き換え</strong></p>
+<p><strong>オブジェクトそのものの受け渡し</strong>、<strong>引数オブジェクトの導入</strong></p>
+<h2 id="変更の発散">変更の発散</h2>
+<p>一つのクラスが互いに独立した理由で同じように変更され、その手順も異なる状態
+(例)データベースが新しくなるたびに3つのメソッドを変更しなければならない</p>
+<p>変更理由ごとにクラスをまとめていく→<strong>クラスの抽出</strong></p>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://gagagal.github.io/hugo-techblog/js/jquery.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/bootstrap.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/jquery.cookie.js"> </script>
+<script src="https://gagagal.github.io/hugo-techblog/js/ekko-lightbox.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/jquery.scrollTo.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/masonry.pkgd.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/owl.carousel.min.js"></script>
+<script src="https://gagagal.github.io/hugo-techblog/js/front.js"></script>
+
+
+
+</body>
+</html>
