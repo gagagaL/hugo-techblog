@@ -1,6 +1,6 @@
 +++
 draft = false
-image = ""
+image = "img/portfolio/wbb.jpeg"
 showonlyimage = false
 title = "『熊とワルツを』まとめ"
 date = "2021-05-04T22:12:03.284Z"

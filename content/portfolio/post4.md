@@ -1,10 +1,10 @@
 +++
 draft = false
-image = ""
+image = "img/portfolio/tdd.jpeg"
 showonlyimage = false
-title = "『テスト駆動開発』のエッセンシャル"
+title = "テスト駆動開発について"
 date = "2021-05-13T22:12:03.284Z"
-description = "書籍『テスト駆動開発』のまとめ"
+description = "書籍『テスト駆動開発』のまとめ、テスト駆動開発の是非、などについて"
 tags = ["本", "テスト駆動開発"]
 +++
 

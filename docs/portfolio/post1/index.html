@@ -2,7 +2,7 @@
 <html lang="ja-jp">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ヨット逆走テック</title>
+<title>元ヨット逆走</title>
 <meta name="description" content="燻りテックブログ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://gagagal.github.io/hugo-techblog/css/bootstrap.min.css">
@@ -35,15 +35,15 @@
           <div class="row row-offcanvas row-offcanvas-left">
               <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="https://gagagal.github.io/hugo-techblog/">ヨット逆走テック</a></h1>
+    <h1 class="sidebar-heading"><a href="https://gagagal.github.io/hugo-techblog/">元ヨット逆走</a></h1>
     
-      <p class="sidebar-p">技術に関して調査したもの、読んだものを主にまとめていこうかなと思います</p>
+      <p class="sidebar-p">SEの技術に関して調査したもの、読んだものを主にまとめていこうかなと思います</p>
     
     <ul class="sidebar-menu">
       
         <li><a href="https://gagagal.github.io/hugo-techblog/portfolio/">Home</a></li>
       
-        <li><a href="https://gagagal.github.io/hugo-techblog/about/">About</a></li>
+        <li><a href="https://gagagal.github.io/hugo-techblog/about/">About me</a></li>
       
     </ul>
     <p class="social">
@@ -89,7 +89,7 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="https://gagagal.github.io/hugo-techblog/">ヨット逆走テック</a></h1>
+  <h1 class="small-navbar-heading"><a href="https://gagagal.github.io/hugo-techblog/">元ヨット逆走</a></h1>
 </div>
 
   <div class="row">
@@ -98,51 +98,51 @@
          <h1>『リファクタリング』まとめ Part1</h1>
          <p>マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。<br>
 気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。</p>
-<h1 id="第1章--リファクタリング-最初の例">第1章  リファクタリング-最初の例</h1>
+<h2 id="第1章--リファクタリング-最初の例">第1章  リファクタリング-最初の例</h2>
 <p>実例を交えながらリファクタリングがどういうものか説明している。
 <strong>全体を読んだ後に読んだ方が良さそうなので後回し。</strong></p>
-<h1 id="第2章-リファクタリングの原則">第2章 リファクタリングの原則</h1>
-<h2 id="リファクタリングの定義">リファクタリングの定義</h2>
+<h2 id="第2章-リファクタリングの原則">第2章 リファクタリングの原則</h2>
+<h3 id="リファクタリングの定義">リファクタリングの定義</h3>
 <p><strong>リファクタリング(名詞)</strong>…外部から見た時の振る舞いを保ちつつ、理解や修正が簡単になるように、ソフトウェアの内部構造を変換させること。</p>
 <p><strong>リファクタリングする(動詞)</strong>…一連のリファクタリングを行って、外部から見た振る舞いの変更なしに、ソフトウェアを再構築すること。</p>
-<h2 id="リファクタリングを行う理由">リファクタリングを行う理由</h2>
+<h3 id="リファクタリングを行う理由">リファクタリングを行う理由</h3>
 <p><strong>・リファクタリングはソフトウェア設計を向上させる</strong></p>
 <p><strong>・リファクタリングはソフトウェアを理解しやすくする</strong></p>
 <p><strong>・リファクタリングはバグを見つけ出す</strong></p>
 <p><strong>・リファクタリングでより早くプログラミングできる</strong></p>
-<h2 id="いつリファクタリングするべきか">いつリファクタリングするべきか</h2>
+<h3 id="いつリファクタリングするべきか">いつリファクタリングするべきか</h3>
 <p><strong>・&ldquo;三度目の法則&rdquo;</strong></p>
 <p>重複や無駄を意識しつつも二度目までならとにかく作業を続けても構わず、三度目に同じようなことをしていると気づいたならばそこでリファクタリングする。</p>
 <p><strong>・機能追加時にリファクタリングを行う</strong></p>
 <p>これから修正しようとしているコードを理解する為、容易に機能追加ができない設計が存在する為</p>
 <p><strong>・バグフィックス時にリファクタリングを行う</strong></p>
 <p><strong>・コードレビューの時にリファクタリングを行う</strong></p>
-<h1 id="第3章-コードの不吉な匂い">第3章 コードの不吉な匂い</h1>
+<h2 id="第3章-コードの不吉な匂い">第3章 コードの不吉な匂い</h2>
 <p>リファクタリングの必要を示す不吉な兆候
 <strong>特に重要な章</strong></p>
-<h2 id="重複したコード">重複したコード</h2>
+<h3 id="重複したコード">重複したコード</h3>
 <p>同じようなコードが二箇所以上で見られたら、一箇所にまとめることを考える</p>
 <p>同一クラス内の複数メソッドに同じ式がある→<strong>メソッドの抽出</strong></p>
 <p>重複したコードが兄弟クラス間に見られる→<strong>メソッドの抽出</strong>、<strong>メソッドの引き上げ</strong></p>
 <p>全く関係のない二つのクラス間で重複したコードが見られる→<strong>クラスの抽出</strong></p>
-<h2 id="長すぎるメソッド">長すぎるメソッド</h2>
+<h3 id="長すぎるメソッド">長すぎるメソッド</h3>
 <p>間接層を持たせるべき。</p>
 <p>メソッドを短くしたい→<strong>メソッドの抽出</strong></p>
 <p>引数や一時変数が多すぎるメソッド→<strong>問い合わせによる一時変数の置き換え</strong></p>
 <p>長い引数リスト→<strong>引数オブジェクトの導入</strong>、<strong>オブジェクトそのものの受け渡し</strong></p>
 <p>それでも一時変数や引数が残る→<strong>メソッドオブジェクトによるメソッドの置き換え</strong></p>
 <p>条件分岐やループ→<strong>条件記述の分解</strong></p>
-<h2 id="巨大なクラス">巨大なクラス</h2>
+<h3 id="巨大なクラス">巨大なクラス</h3>
 <p>一つのクラスがあまりに多くの仕事をしている時、たいていインスタンス変数を持ちすぎている。よって重複コードが現れやすい。</p>
 <p>いくつかの変数をまとめる→<strong>クラスの抽出</strong></p>
 <p>新しいコンポーネントがサブクラスになりそう→<strong>サブクラスの抽出</strong></p>
 <p>クラスがインスタンス変数を全て使っていない→<strong>クラスの抽出</strong>、<strong>サブクラスの抽出</strong></p>
 <p><strong>インタフェースの抽出</strong></p>
 <p>巨大なクラスがGUI部分である→<strong>観察されるデータの複製</strong></p>
-<h2 id="多すぎる引数">多すぎる引数</h2>
+<h3 id="多すぎる引数">多すぎる引数</h3>
 <p>既知のオブジェクトに問い合わせてそのデータを一つの引数にしてうけとることが可能→<strong>メソッドによる引数の置き換え</strong></p>
 <p><strong>オブジェクトそのものの受け渡し</strong>、<strong>引数オブジェクトの導入</strong></p>
-<h2 id="変更の発散">変更の発散</h2>
+<h3 id="変更の発散">変更の発散</h3>
 <p>一つのクラスが互いに独立した理由で同じように変更され、その手順も異なる状態
 (例)データベースが新しくなるたびに3つのメソッドを変更しなければならない</p>
 <p>変更理由ごとにクラスをまとめていく→<strong>クラスの抽出</strong></p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on ヨット逆走テック</title>
+    <title>Python on 元ヨット逆走</title>
     <link>https://gagagal.github.io/hugo-techblog/tags/python/</link>
-    <description>Recent content in Python on ヨット逆走テック</description>
+    <description>Recent content in Python on 元ヨット逆走</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 05 May 2021 22:12:03 +0000</lastBuildDate><atom:link href="https://gagagal.github.io/hugo-techblog/tags/python/index.xml" rel="self" type="application/rss+xml" />

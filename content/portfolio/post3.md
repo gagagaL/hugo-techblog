@@ -1,6 +1,6 @@
 +++
 draft = false
-image = ""
+image = "img/portfolio/hpp.jpeg"
 showonlyimage = false
 title = "『ハイパフォーマンスPython』まとめ"
 date = "2021-05-05T22:12:03.284Z"

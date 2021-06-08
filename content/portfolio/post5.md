@@ -1,6 +1,6 @@
 +++
 draft = false
-image = ""
+image = "img/portfolio/ddd.jpeg"
 showonlyimage = false
 title = "『エリック・エヴァンスのドメイン駆動設計』まとめ"
 date = "2021-05-17T22:12:03.284Z"
