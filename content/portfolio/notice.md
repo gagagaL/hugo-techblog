@@ -10,8 +10,8 @@ tags = ["タスク","ブログ"]
 
 随時追記
 
-- [ ] dorenv
-- [ ] emotion
+- [ ] dotenv
+- [ ] [emotion](https://qiita.com/282Haniwa/items/243f00c39ee7c992d7f7)
 - [ ] goの基本
 - [ ] flutterの基本
 - [ ] Kotlinの基本
