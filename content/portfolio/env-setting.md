@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 image = ""
 showonlyimage = false
 title = "SE環境の整え方"
-date = "2021-06-10T22:12:03.284Z"
+date = "2021-06-08T22:12:03.284Z"
 description = ""
 tags = ["タスク"]
 +++
