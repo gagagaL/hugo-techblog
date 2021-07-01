@@ -95,8 +95,46 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>『スーパーエンジニアへの道』まとめ</h1>
-         
+         <h1>【備忘録】LinuxとMacでのdateコマンドの差異について</h1>
+         <p>Linux上にて、特定の日付での挙動を調べるために</p>
+<pre><code>date -s &quot;12/31 12:00 2021&quot;
+</code></pre><p>というコマンドを実行して調査指定していました。<br>
+これをMacのローカル環境でも調べようと思って同じコマンドを叩くと</p>
+<pre><code>date -s &quot;12/31 12:00 2021&quot;
+
+date: illegal option -- s
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+</code></pre><p>と怒られました。
+「&ldquo;s&quot;なんてオプションは無え！」ということらしいです。</p>
+<h3 id="何でこんなことになるのか">何でこんなことになるのか</h3>
+<p>普段からはそこまで差を感じないので「なんとなく同じなんじゃないの」と思い込んでしまっていましたが、MacOSとLinuxはそもそも違います。<br>
+まあ当然と言えば当然ですね。<br>
+MacはBSDというUnixをベースに作られているらしいです。</p>
+<h3 id="対処法">対処法</h3>
+<p>GNU Linuxにおけるdateコマンドと同様のものをbrewでインストールできます。</p>
+<pre><code>brew install coreutils
+</code></pre><p>こうすることで、GNU Linuxにおけるdateコマンドと同じ働きをするgdateコマンドが使えます。
+これをこのまま使ってもいいのですが、あくまでdateコマンドとして使いたい時は、.zshrcに</p>
+<pre><code>alias date=’/usr/local/bin/gdate’
+</code></pre><p>を追記するなどして、エイリアスを定義しましょう。
+一応、whichでgdateの保存先などを確認しておくとより確実ですね。</p>
+<p>…</p>
+<p>とまあ、ここまで説明しておいてアレですが、</p>
+<pre><code>sudo date 123112002021
+</code></pre><p>でも変更できるみたいですね。</p>
+<h3 id="α">+α</h3>
+<p>今回はdateコマンドでしたが、</p>
+<ul>
+<li>xargs</li>
+<li>sed</li>
+<li>grep</li>
+<li>base64
+もBSD UnixとGNU Linuxで挙動が違うコマンドの代表例らしいです。<br>
+ここら辺のある程度の知見を持っておきたい…。</li>
+</ul>
+<p>Qiitaに投稿した元記事 : <a href="https://qiita.com/DenverIA/items/f7b6fabdb332e1043fdd">https://qiita.com/DenverIA/items/f7b6fabdb332e1043fdd</a></p>
+
          
       </div>
     </div>

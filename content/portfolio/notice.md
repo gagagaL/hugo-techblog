@@ -18,3 +18,6 @@ tags = ["タスク","ブログ"]
 - [ ] firebaseの基本
 - [ ] Nuxt(Vue.js)
 - [ ] Next(React.js)
+- [ ] grepコマンド
+- [ ] pecoコマンド
+- [ ] 正規表現

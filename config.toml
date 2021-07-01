@@ -1,5 +1,5 @@
 baseurl = "https://gagagal.github.io/hugo-techblog/"
-title = "元ヨット逆走"
+title = "元ヨット逆走テックブログ"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "ja-jp"
 # Enable comments by entering your Disqus shortname
