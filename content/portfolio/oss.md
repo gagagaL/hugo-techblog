@@ -21,6 +21,8 @@ good first issueを確認できるサイトもある↓
 
 - [GoodFirstIssue.dev](https://goodfirstissue.dev/) ←これが良さそう  
 - [GoodFirstIssue.vercel](https://goofi.vercel.app/)
+  
+- [Gatsbyのコントリビュート説明ページ](https://www.gatsbyjs.com/contributing/how-to-contribute/) ここで頑張ってみたい、グッズももらえるし
 
 ## OSSの環境を整えるには  
 
